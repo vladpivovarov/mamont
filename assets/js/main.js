@@ -8,12 +8,31 @@ document.addEventListener('DOMContentLoaded', function(){
         autoplayTimeout: 3000,
         autoplaySpeed: 800,
         center: true,
-        items: 1.4,
+        items: 3,
         stagePadding: 15,
         loop: true,
         margin: 15,
-    animateOut: 'slide-up',
-    animateIn: 'slide-down',
+        animateOut: 'slide-up',
+        animateIn: 'slide-down',
+        responsive: {
+            // breakpoint from 0 up
+            0: {
+                margin: 15,
+                items: 1.1
+            },
+            576: {
+                margin: 15,
+                items: 3
+            },
+            768: {
+                margin: 15,
+                items: 3
+            },
+            768: {
+                margin: 15,
+                items: 3
+            }
+        }
     });
 
     function showPopup() {
@@ -171,8 +190,8 @@ document.addEventListener('DOMContentLoaded', function(){
     // animateOut: 'slide-up',
     // animateIn: 'slide-down',
 
-    // responsive: {
-    //     // breakpoint from 0 up
+    //responsive: {
+        // breakpoint from 0 up
     //     0: {
     //         margin: 15,
     //         items: 1.3
@@ -186,7 +205,7 @@ document.addEventListener('DOMContentLoaded', function(){
     //         items: 3
     //     }
     // }
-    //});
+    // });
 
 
 
