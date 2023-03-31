@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function(){
     var $owl = $('.loop');
 
     $owl.owlCarousel({
-    autoplay: false,
+    autoplay: true,
     autoplayHoverPause: true,
     autoplayTimeout: 4000,
     autoplaySpeed: 800,
@@ -157,21 +157,21 @@ document.addEventListener('DOMContentLoaded', function(){
     animateOut: 'slide-up',
     animateIn: 'slide-down',
 
-    responsive: {
-        // breakpoint from 0 up
-        0: {
-            margin: 15,
-            items: 1.3
-        },
-        768: {
-            margin: 15,
-            items: 3
-        },
-        768: {
-            margin: 15,
-            items: 3
-        }
-    }
+    // responsive: {
+    //     // breakpoint from 0 up
+    //     0: {
+    //         margin: 15,
+    //         items: 1.3
+    //     },
+    //     768: {
+    //         margin: 15,
+    //         items: 3
+    //     },
+    //     768: {
+    //         margin: 15,
+    //         items: 3
+    //     }
+    // }
     });
 
 
