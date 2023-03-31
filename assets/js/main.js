@@ -1,6 +1,20 @@
 document.addEventListener('DOMContentLoaded', function(){
 
+    var $owl = $('.loop');
 
+    $owl.owlCarousel({
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplayTimeout: 3000,
+        autoplaySpeed: 800,
+        center: true,
+        items: 1.4,
+        stagePadding: 15,
+        loop: true,
+        margin: 15,
+    animateOut: 'slide-up',
+    animateIn: 'slide-down',
+    });
 
     function showPopup() {
         const btn = document.querySelector('.header__popup-call');
@@ -141,21 +155,21 @@ document.addEventListener('DOMContentLoaded', function(){
 
     calculateForm()
 
-    var $owl = $('.loop');
+    // var $owl = $('.loop');
 
-    $owl.owlCarousel({
-    autoplay: true,
-    autoplayHoverPause: true,
-    autoplayTimeout: 4000,
-    autoplaySpeed: 800,
-    center: true,
-    items: 3,
-    autoWidth:  true,
-    stagePadding: 15,
-    loop: true,
-    nav: true,
-    animateOut: 'slide-up',
-    animateIn: 'slide-down',
+    // $owl.owlCarousel({
+    // autoplay: true,
+    // autoplayHoverPause: true,
+    // autoplayTimeout: 4000,
+    // autoplaySpeed: 800,
+    // center: true,
+    // items: 3,
+    // autoWidth:  true,
+    // stagePadding: 15,
+    // loop: true,
+    // nav: true,
+    // animateOut: 'slide-up',
+    // animateIn: 'slide-down',
 
     // responsive: {
     //     // breakpoint from 0 up
@@ -172,7 +186,7 @@ document.addEventListener('DOMContentLoaded', function(){
     //         items: 3
     //     }
     // }
-    });
+    //});
 
 
 
