@@ -160,12 +160,16 @@ document.addEventListener('DOMContentLoaded', function(){
     responsive: {
         // breakpoint from 0 up
         0: {
-        margin: 15,
-        items: 1.3
+            margin: 15,
+            items: 1.3
         },
         768: {
-        margin: 15,
-        items: 3
+            margin: 15,
+            items: 3
+        },
+        768: {
+            margin: 15,
+            items: 3
         }
     }
     });
