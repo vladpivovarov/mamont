@@ -1,0 +1,14 @@
+<svg width="422" height="30" viewBox="0 0 422 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="408" height="29" rx="14.5" fill="#FFCE84"/>
+<mask id="mask0_42_3" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="422" height="30">
+<rect y="0.102295" width="422" height="29.1667" rx="14.5833" fill="#FFB03A"/>
+</mask>
+<g mask="url(#mask0_42_3)">
+<line y1="-5.83333" x2="109.924" y2="-5.83333" transform="matrix(-0.723931 0.689873 -0.971134 -0.238535 74.7542 -23.231)" stroke="#FFA826" stroke-width="11.6667"/>
+<line y1="-5.83333" x2="109.924" y2="-5.83333" transform="matrix(-0.723931 0.689873 -0.971134 -0.238535 137.451 -23.231)" stroke="#FFA826" stroke-width="11.6667"/>
+<line y1="-5.83333" x2="109.924" y2="-5.83333" transform="matrix(-0.723931 0.689873 -0.971134 -0.238535 200.148 -23.231)" stroke="#FFA826" stroke-width="11.6667"/>
+<line y1="-5.83333" x2="109.924" y2="-5.83333" transform="matrix(-0.723931 0.689873 -0.971134 -0.238535 262.845 -18.5642)" stroke="#FFA826" stroke-width="11.6667"/>
+<line y1="-5.83333" x2="109.924" y2="-5.83333" transform="matrix(-0.723931 0.689873 -0.971134 -0.238535 325.543 -18.5642)" stroke="#FFA826" stroke-width="11.6667"/>
+<line y1="-5.83333" x2="109.924" y2="-5.83333" transform="matrix(-0.723931 0.689873 -0.971134 -0.238535 388.24 -18.5642)" stroke="#FFA826" stroke-width="11.6667"/>
+</g>
+</svg>
